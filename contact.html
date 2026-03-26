@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact TK Tax Consultants in Leyland, Lancashire. Call 01772 526670 or email info@tktax.co.uk to book a free consultation.">
+  <title>Contact Us | TK Tax Consultants</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="logo-transparent.png" alt="TK Tax Consultants">
+      </a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html" class="active">Contact</a>
+        <div class="nav__cta">
+          <a href="contact.html" class="btn btn--primary btn--sm">Book a Free Consultation</a>
+        </div>
+      </div>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Page Header ===== -->
+  <section class="page-header">
+    <h1>Contact Us</h1>
+    <p>Get in touch to book a free consultation and discuss how we can support your business.</p>
+    <span class="accent-line"></span>
+  </section>
+
+  <!-- ===== Contact Content ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3 style="margin-bottom: var(--space-xs); font-family: var(--font-heading);">Start the Conversation</h3>
+          <p style="margin-bottom: var(--space-md); font-size: 1rem;">Share a few details below and we will come back to you promptly. Every enquiry is handled in strict confidence.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group" id="nameGroup">
+              <label for="name">Full Name <span style="color: var(--gold);">*</span></label>
+              <input type="text" id="name" name="name" placeholder="e.g. John Smith" required>
+              <span class="error-text">Please enter your name</span>
+            </div>
+
+            <div class="form-group" id="emailGroup">
+              <label for="email">Email Address <span style="color: var(--gold);">*</span></label>
+              <input type="email" id="email" name="email" placeholder="e.g. john@example.co.uk" required>
+              <span class="error-text">Please enter a valid email address</span>
+            </div>
+
+            <div class="form-group" id="phoneGroup">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 07700 900000">
+            </div>
+
+            <div class="form-group" id="serviceGroup">
+              <label for="service">What can we help with?</label>
+              <select id="service" name="service">
+                <option value="">Select a service (optional)</option>
+                <option value="self-assessment">Self Assessment / Tax Returns</option>
+                <option value="cis">CIS Tax Reclaims</option>
+                <option value="sole-trader">Sole Trader Support</option>
+                <option value="limited-company">Limited Company Accounts</option>
+                <option value="start-up">Business Start-Up Advice</option>
+                <option value="bookkeeping">Bookkeeping &amp; VAT</option>
+                <option value="payroll">Payroll Services</option>
+                <option value="tax-advice">Tax Advice / Wealth Management</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="messageGroup">
+              <label for="message">Your Message <span style="color: var(--gold);">*</span></label>
+              <textarea id="message" name="message" placeholder="Tell us briefly about your situation or what you need help with..." required></textarea>
+              <span class="error-text">Please enter a message</span>
+            </div>
+
+            <button type="submit" class="btn btn--primary" style="width: 100%;">Book a Free Consultation</button>
+          </form>
+
+          <div id="formSuccess" style="display: none; text-align: center; padding: var(--space-lg);">
+            <div style="font-size: 3rem; margin-bottom: var(--space-sm);">✅</div>
+            <h3 style="margin-bottom: var(--space-xs);">Thank You</h3>
+            <p>Your message has been received. We'll be in touch shortly.</p>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📞</div>
+            <div>
+              <h4>Telephone</h4>
+              <p><a href="tel:01772526670">01772 526670</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@tktax.co.uk">info@tktax.co.uk</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>134 Balcarres Road<br>Leyland, Lancashire<br>PR25 3ED</p>
+            </div>
+          </div>
+
+          <div class="contact-info__item">
+            <div class="contact-info__icon">🌐</div>
+            <div>
+              <h4>Website</h4>
+              <p><a href="https://www.tktax.co.uk" target="_blank" rel="noopener">www.tktax.co.uk</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info__item" style="border-bottom: none; background-color: var(--gold-pale); border-radius: var(--radius-md); padding: var(--space-md);">
+            <div>
+              <h4 style="color: var(--gold-dark);">Free Initial Consultation</h4>
+              <p style="margin-bottom: 0;">Your consultation is a straightforward opportunity to discuss your requirements, ask questions and understand how our support could fit your business. No obligation, no pressure.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo-transparent.png" alt="TK Tax Consultants">
+          <p>Professional accountancy and tax support for businesses across Leyland and beyond, with over 30 years of experience and one consistent point of contact.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="resources.html">Resources</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__links">
+          <h4>Services</h4>
+          <a href="services.html#subcontractors">Subcontractors &amp; CIS</a>
+          <a href="services.html#sole-traders">Sole Traders</a>
+          <a href="services.html#limited-companies">Limited Companies</a>
+          <a href="services.html#start-ups">Start-Ups</a>
+          <a href="services.html#bookkeeping">Bookkeeping &amp; VAT</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__contact-item">
+            <span class="icon">📍</span>
+            <span>134 Balcarres Road, Leyland,<br>Lancashire, PR25 3ED</span>
+          </div>
+          <div class="footer__contact-item">
+            <span class="icon">📞</span>
+            <a href="tel:01772526670">01772 526670</a>
+          </div>
+          <div class="footer__contact-item">
+            <span class="icon">✉️</span>
+            <a href="mailto:info@tktax.co.uk">info@tktax.co.uk</a>
+          </div>
+          <div class="footer__contact-item">
+            <span class="icon">🌐</span>
+            <a href="https://www.tktax.co.uk" target="_blank" rel="noopener">www.tktax.co.uk</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <span>&copy; 2026 TK Tax Consultants. All rights reserved.</span>
+        <span>134 Balcarres Road, Leyland, Lancashire, PR25 3ED</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
